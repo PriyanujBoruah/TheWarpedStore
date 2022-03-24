@@ -1,0 +1,621 @@
+<html>
+<head>
+<title>TheWarpedStore/Home</title>
+<style>
+
+.header table{
+width: 100%;
+table-layout: fixed;
+border-bottom: 1px solid grey;
+}
+.header a {
+text-decoration: none;
+color: black
+}
+.header a:hover {
+color: #6500ff
+}
+
+.sector1 {
+text-align: center
+}
+.sector1 h1 {
+margin: 0px 20% 0px 20%;
+color: #404040
+}	
+.sector1 p {
+margin: 0px 17% 0px 17%;
+color:#404040
+}						
+.log{  
+    width: 20%;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 20%;
+    color: white;
+    background-color: #6500ff;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+}  
+.log:hover {
+border: 1px solid #404040;
+background-color: #404040
+}
+
+
+.sector2 {
+background-image: url('1621035025-bld-hero-1380x1380.webp');
+background-size: 100% 100%;
+margin: 0px 25% 0px 25%;
+padding: 25% 0px 25% 0px;
+color: #404040
+}	
+.sector3 {
+background-color: #e0e0eb;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+padding: 1% 0px 1% 0px;
+border-radius: 30px;
+}
+.sector3 table td a {
+text-decoration: none;
+color:#404040
+}			
+.sector3 table {
+width: 100%;
+text-align: center;
+}
+.sector3 table td a:hover {
+color: #6500ff;
+}
+
+
+.company1 {
+overflow :scroll;
+width: 100%;
+
+}
+.company1 table {
+table-layout: fixed;
+text-align: center;
+background-color: rgba(255,255,255,0.5)
+}
+.cmpimg {
+opacity: 0.5
+}
+
+
+.sector4 {
+background-color: #e0e0eb;
+background-size: 100% 100%;
+}
+.sector4 h1 {
+margin-left: 15%;
+color: #404040;
+}
+.sector4 p {
+margin-left: 15%;
+margin-right: 10%;
+color: #404040
+}
+.sector4pic {
+width: 75%;
+}			
+
+.sector5 {
+background-color: #ffffff;
+background-size: 100% 100%;
+}
+.sector5 h1 {
+margin-right: 15%;
+color: #404040
+}
+.sector5 p {
+margin-right: 15%;
+color: #404040
+}
+.sector5pic {
+width: 50%;
+margin-left: 15%
+}	
+
+.sector6 {
+background-color: #e0e0eb;
+background-size: 100% 100%;
+}
+.sector6 h1 {
+margin-left: 20%;
+color: #404040
+}
+.sector6 p {
+margin-left: 20%;
+color: #404040
+}
+.sector6pic {
+width: 65%;
+margin-left: 20%
+}
+
+.streamer {
+background-image: url('ezgif.com-gif-maker.gif');
+background-size: 100% 100%;
+color: white;
+text-align: center
+}
+.streamer h3 {
+padding-top: 20%;
+margin-bottom: -2%
+}
+.streamer h1 {
+font-size: 50px
+}
+.streamer h4 {
+font-size: 25px;
+margin-top: -1%
+}
+.buybutton {
+    width: 10%;  
+    height: 30px;  
+    border: 2px solid white;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 20%;
+    color: white;
+    background-color: rgba(0,0,0,0);    
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+    margin-bottom: 15%
+}
+.buybutton:hover {
+background-color: white;
+color: #6500ff
+}
+
+.sector7 {
+margin-top: -3%;
+background-color: black;
+color: white;
+text-align: center
+}
+.sector7 h1 {
+padding-top: 2%
+}
+.sector7pic {
+width: 60%
+}
+.inlog {
+    width: 10%;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 20%;
+    color: #6500ff;
+    background-color: white;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+}
+.inlog:hover {
+background-color: black;
+color: white;
+border: 1px solid white
+}
+
+
+.sector8 {
+text-align: center;
+color: #404040
+}
+.sector8pic {
+width: 50%
+}
+.inlog1 {
+    width: 15%;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 20%;
+    color: white;
+    background-color: #6500ff;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+}
+.inlog1:hover {
+background-color: #404040;
+border: 1px solid #404040
+}
+
+
+
+.sector9 {
+text-align: center;
+color: white
+}
+.sector9 h1 {
+font-size: 50px
+}
+.sector9 h2 {
+font-size: 40px;
+margin-left: 15%;
+margin-right: 15%;
+color: #e380ff
+}
+.sector9pic {
+width: 60%
+}
+
+.two {
+width: 90%;
+margin-left: auto;
+margin-right: auto
+}
+.td1,.td2 {
+text-align: center;
+background-color: #202020;
+border-radius: 10px
+}
+.two h3 {
+padding-top: 10%;
+color: white
+}
+.two p {
+color: white
+}
+.learnbutton {
+    width: 25%;  
+    height: 30px;  
+    border: 2px solid white;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 20%;
+    color: white;
+    background-color: rgba(0,0,0,0);    
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+    margin-bottom: 10%
+}
+.learnbutton:hover {
+background-color: white;
+color: #6500ff
+}
+
+
+.aboutme {
+background-image: url('PSX_20210727_210751.jpg');
+background-size: 100% 100%;
+}
+.foter {
+background-color: rgba(255,255,255,0.7)
+}
+.foter h1,p {
+color: #202020
+}
+.foter table {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+color: white
+}
+.foter table tr td h1 {
+margin-left: 10%;
+padding-top: 5%;
+}
+.me {
+margin-right: 20%;
+margin-left: 10%;
+padding-bottom: 5%
+}
+.foter table tr td img {
+margin-top: 10%;
+margin-bottom: 10%;
+border-radius: 40px
+}
+.learnbutton1 {
+    width: 25%;  
+    height: 30px;  
+    border: 2px solid #6500ff;  
+    border-radius: 17px;  
+    margin: 0px 20% 0px 30%;
+    color: white;
+    background-color: #6500ff;    
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+    margin-bottom: 10%
+}
+.learnbutton1:hover {
+border: 1px solid #202020;
+background-color: #202020
+}
+
+
+.footer {
+margin-top: -1%;
+background-color: #202020;
+padding-bottom: 10%
+}
+.footer img {
+width: 50%;
+padding-left: 3%
+}
+.footer table {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 3%
+}
+.footx {
+color: #cbcbcb
+}
+.foot {
+font-size: 20px;
+color: white;
+padding-bottom: 1%;
+padding-top: 2%
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+<table>
+<tr>
+<td><a href="whitepage.html"><img src="1626269341292.png" alt="" width="50" height="50"class="logo"></a></td>
+<td class="head"><a href="whitelogin.html">Login</a></td>
+<td class="head"><a href="">Laptops</a></td>
+<td class="head"><a href="creatorpc.html">PCs</a></td>
+<td class="head"><a href="about.html">About Us</a></td>
+<td class="head"><a href="">Customer Care</a></td>
+</tr>
+</table>
+</div>
+</br></br></br>
+
+
+
+<div class="sector1">
+	<h1>THE WARPED STORE</h1>
+	</br>
+ <p>We deliver your desired Laptops, build your required PCs and we have every Computer Component that you might need.</p>	
+ </br>
+ <input type="button" name="log" class="log" value="Start Shopping" onclick="window.location.href= 'components.html'">
+</div>
+</br></br>
+
+<div class="sector2">	
+</div>	
+		
+		
+<div class="sector3">
+	<table>
+			<tr>
+			<td><a href="">Buy Laptops</a></td>
+			<td><a href="creatorpc.html">Buy Workstations</a></td>
+			<td><a href="gamerpc.html">Buy Gaming PCs</a></td>
+			</tr>
+	</table>		
+</div>
+</br></br></br>
+	
+	
+<div class="company1">
+		<table>
+			<tr>
+				<td><img src="2560px-AMD_Logo.svg.png" alt="" class="cmpimg" width="200" style="margin-top:15px"></td>
+				<td><img src="1627416032784.png" alt="" class="cmpimg" width="400" style="margin-top: 15px"></td>
+				<td><img src="1627416008587.png" alt="" class="cmpimg" width="175" style="padding-right: 60px"></td>
+				<td><img src="Asrock-final.png" alt="" class="cmpimg" width="250" style="padding-right: 60px"></td>
+				<td><img src="Deepcool-logo-black.png" alt="" class="cmpimg" width="350"></td>
+				<td><img src="Western_Digital-Logo.wine.png" alt="" class="cmpimg" width="400"></td>
+			</tr>
+		</table>
+</div>
+
+
+<div class="streamer">
+	<h3>The Gamer Series</h3>
+	<h1>THE STREAMING PC</h1>
+	<h4>Don't Let Your Stream be a Dream</h4>
+	<input type="button" name="buy" class="buybutton" value="Shop" onclick="window.location.href= 'streamerpc.html'"</a>>
+</div>
+
+
+<div class="sector7">
+	<h1>Starter Series</h1>
+ <h4>Your PC Gaming Journey Starts Here</h4>
+ <input type="button" name="log" class="inlog" value="Shop" onclick="window.location.href= 'gamerpc.html'"></br>
+	<img src="1626131500-starter-series-hero-faded-short2.webp" alt="" class="sector7pic">
+</div>
+
+
+<div class="company1">
+		<table>
+			<tr>
+				<td><img src="Asus-Logo-700x394.png" alt="" class="cmpimg" width="200" style="margin-top:15px; padding-right: 70px"></td>
+				<td><img src= "1627415972016.png" alt="" class="cmpimg" width="200" style="margin-top: 15px; padding-right: 70px"></td>
+				<td><img src="1627415879247.png" alt="" class="cmpimg" width="250" style="padding-right: 60px"></td>
+				<td><img src="1627417829216.png" alt="" class="cmpimg" width="200" style="margin-top: 15px; padding-right: 60px"></td>
+				<td><img src="1627415506474.png" alt="" class="cmpimg" width= "200" style="padding-right: 70px"></td>
+				<td><img src="hewlett-packard-logo-black-and-white.png" alt="" class="cmpimg" width="100"></td>
+			</tr>
+		</table>
+</div>
+
+
+<div class="sector8">
+ <h1>Workstations Made Simple</h1>
+ <p>Choose from curated parts and we'll build it for you within 3 business days</p>
+ <input type="button" name="log" class="inlog1" value="See Collection" onclick="window.location.href= 'creatorpc.html'"></br></br>
+ <img src="1618960827-elite5grid.webp" alt="" class="sector8pic">
+</div>
+</br></br></br>
+
+
+<div class="sector4">
+	<table>
+		<tr>
+		<td>
+			<h1>Competitive Pricing</h1>
+			<p>We list everything that goes into your build and display cost clearly. Not only do you know exactly what you're getting, but it's more cost-effective than buying parts separately.</p>
+		</td>
+		<td>
+			<img src="1626202583845.png" alt="" class="sector4pic">
+		</td>
+		</tr>
+	</table>
+</div>		
+</br></br>				
+				
+<div class="sector5">
+	<table>
+		<tr>
+		<td>
+			<img src="1615982903-starterpc1wht2000x2000straight.webp" alt="" class="sector5pic">
+		</td>
+		<td>
+			<h1>Built by experts with an eye for design</h1>
+			<p>By using the best components, assembled by highly-trained builders, we can deliver a meticulously crafted PC, backed by a comprehensive 2-year warranty.</p>
+		</td>
+		</tr>
+	</table>
+</div></br></br>
+
+
+<div class="sector6">
+	</br>
+	<table>
+		<tr>
+		<td>
+			<h1>2-Year Warranty</h1>
+			<p>Attention to detail doesn't stop with our hardware. Not only does our 2-year warranty cover all parts and labor, but our awesome customer service team is also here to help with any issues.</p>
+		</td>
+		<td>
+			<img src="1619745249-customer-support-2x.webp" alt="" class="sector6pic">
+		</td>
+		</tr>
+	</table>
+	</br>
+</div>				
+</br></br>	
+
+
+<div class="two">
+	<table>
+		<tr>
+			<td>
+				<div class="td1">
+					<h3>THE WARPED STORE</h3>
+					<p>Become A Member</p>
+					<img src="1620336914-cam-home-page.webp" alt="" width="400" height="200">
+					<input type="button" name="buy" class="learnbutton" value="Learn More">
+				</div>
+			</td>
+			<td>
+				<div class="td2">
+					<h3>Our Pre-Built PCs</h3>
+					<p>The Best Pre-Built PC Manufacturer</p>
+					<img src="1620339562-starter-series-home-page-2x.webp" alt="" width="400" height="200">			
+					<input type="button" name="buy" class="learnbutton" value="Learn More">
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+</br></br>
+
+
+<div class="aboutme">
+				
+<div class="foter">
+	<table>
+		<tr>
+		 <td>
+		 	<h1>Meet The Founder</h1>
+		 	<p class="me"><b>We love building PCs and the people who build them.</b> That's why we develop and continuously evolve products of the highest quality: to make creating extraordinary PCs achievable and fun for all gamers.</p>
+		 	<input type="button" name="buy" class="learnbutton1" value="Learn More" onclick="window.location.href= 'about.html'">
+		 </td>
+		 <td>
+		 		<img src="me-1.jpg" alt="" width="300">
+		 </td>
+		</tr>
+	</table>
+</div>
+
+
+<div class="sector9">
+	</br>
+	<img src="1622240169-n7-z590-h510i-black-case-kraken-z-liquid-system-hero-low-light.webp" alt="" class="sector9pic">
+	<h1>Stay in Touch</h1>
+	<h2>Stay up to date with The Warped Store with our latest products</h2>
+	</br>
+</div>
+
+</div>
+
+
+<div class="footer">
+	<img src="1626460426829.png" alt="">
+	<table>
+		<tr>
+			<td class="foot">Contact</td>
+			<td class="foot">About THE WARPED STORE</td>
+			<td class="foot">Community</td>
+		</tr>
+		<tr>
+			<td class="footx">Company</td>
+			<td class="footx">Founder Q & A</td>
+			<td class="footx">Our Discord</td>
+		</tr>
+		<tr>
+			<td class="footx">Customer Support</td>
+			<td class="footx">Customer Reviews</td>
+			<td class="footx">Newsroom & Blog</td>
+		</tr>
+		<tr>
+			<td class="footx">Submit an Enquiry</td>
+			<td class="footx"></td>
+			<td class="footx">Social Media</td>
+		</tr>
+		<tr>
+			<td class="footx">Support Center</td>
+			<td class="footx"></td>
+			<td class="footx"></td>
+		</tr>
+		<tr>
+			<td class="foot">Laptops</td>
+			<td class="foot">Account</td>
+			<td class="foot">THE WARPED STORE</td>
+		</tr>
+		<tr>
+			<td class="footx">ConceptD</td>
+			<td class="footx">Manage Your Account</td>
+			<td class="footx">Gaming PC</td>
+		</tr>
+		<tr>
+			<td class="footx">Zenbook Duo</td>
+			<td class="footx"><a href="whitelogin.html" style="text-decoration:none; color:#cbcbcb">Sign In/Up</a></td>
+			<td class="footx">Creator's PC</td>
+		</tr>
+		<tr>
+			<td class="footx">GE76 Raider</td>
+			<td class="footx"></td>
+			<td class="footx">Streaming PC</td>
+		</tr>
+		<tr>
+			<td class="footx">Spectre X360</td>
+			<td class="footx"></td>
+			<td class="footx">FAQs</td>
+		</tr>
+	</table>
+</div>
+
+
+</body>
+</html>

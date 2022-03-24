@@ -1,0 +1,642 @@
+<html>
+<head>
+<title>TWS/creativepc/creator_series</title>
+<style>
+	
+.header table{
+width: 100%;
+table-layout: fixed;
+border-bottom: 1px solid grey
+}
+
+.head a{
+text-decoration: none;
+color: black
+}	
+.header a:hover {
+color: #6500ff
+}
+				
+.sector1 {
+text-align: center;
+color: #404040;
+padding-bottom: 10%
+}
+.sector1 h1 {
+font-size: 70px;
+border-bottom: 1px solid grey;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: -10px
+}
+.sector1 h4 {
+font-size: 20px;
+}
+.sector1pic {
+width: 80%
+}
+
+
+.sector2 {
+text-align: center;
+color: #404040
+}
+.sector2 h2 {
+font-size: 40px;
+width: 20%;
+margin-left: auto;
+margin-right: auto;
+}
+.sector2 h3 {
+font-size: 20px;
+width: 35%;
+margin-left: auto;
+margin-right: auto;
+}			
+
+.sector3 {
+background-color: #e0e0eb;
+background-size: 100% 100%;
+}
+.sector3 h1 {
+margin-right: 5%;
+margin-left: 24%;
+color: #404040;
+font-size: 35px
+}
+.sector3 p {
+margin-right: 15%;
+margin-left: 24%;
+color: #404040;
+font-size: 20px
+}
+.sector3pic {
+width: 100%;
+margin-left: 30%;
+}	
+
+.sector4 {
+background-color: #ffffff;
+background-size: 100% 100%;
+}
+.sector4 h1 {
+margin-left: 18%;
+color: #404040;
+font-size: 35px
+}
+.sector4 p {
+margin-left: 18%;
+margin-right: 0%;
+color: #404040;
+font-size: 20px
+}
+.sector4pic {
+width: 90%;
+margin-left: 5%
+}
+
+.sector5 {
+background-color: #e0e0eb;
+background-size: 100% 100%;
+}
+.sector5 h1 {
+margin-right: 5%;
+margin-left: -15%;
+color: #404040;
+font-size: 35px
+}
+.sector5 p {
+margin-right: 15%;
+margin-left: -15%;
+color: #404040;
+font-size: 20px
+}
+.sector5pic {
+width: 50%;
+margin-left: 15%;
+}	
+
+.sector6 {
+background-color: #ffffff;
+background-size: 100% 100%;
+}
+.sector6 h1 {
+margin-left: 20%;
+margin-right: -10%;
+color: #404040;
+font-size: 35px
+}
+.sector6 p {
+margin-left: 20%;
+margin-right: -10%;
+color: #404040;
+font-size: 20px
+}
+.sector6pic {
+width: 60%;
+margin-left: 30%
+}
+
+.sector7 {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+background-color: #e0e0eb;
+border-radius: 10px
+}
+.sector7 table {
+width: 90%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 5% 0px 5% 0px
+}
+.sector7 table p {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sectorbuy {
+width: 100%;
+padding-bottom: 10%
+}
+.sectorbuy table{
+width: 95%;
+margin-left: auto;
+margin-right: auto
+text-align: center
+}
+.sectorbuy img {
+width: 90%
+}
+.sectorbuy h2 {
+color: #404040
+}
+.sectorbuy p {
+margin-top: -3%;
+color: #919191
+}
+.sectorbuy h3 {
+margin-top: -1%
+}
+.buy {
+    width: 30%;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    margin: 0px 30% 0px 30%;
+    color: #ffffff;
+    background-color: #6500ff;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+}
+.buy:hover {
+background-color: #404040;
+border: 1px solid #404040;
+color: white
+}
+
+
+.pcpic {
+overflow-y: scroll;
+width: 100%
+}
+.pcpic img {
+padding-left: 75px;
+}
+
+
+.cam {
+background-color: #202020;
+width: 45%;
+border-radius: 20px
+}
+.cam p {
+text-align: center;
+color: white;
+font-size: 20px;
+padding-top: 10%
+}
+.cam p b {
+font-size: 30px;
+color: #6500ff
+}
+.par {
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+color: white
+}
+.cam .win {
+text-align: center;
+color: white;
+font-size: 15px;
+margin-top: -8%;
+margin-right: 5%
+}
+.cam img {
+width: 80%;
+margin-left: 10%;
+margin-right: 10%
+}
+.cam1 {
+    width: 35%;  
+    height: 35px;  
+    border: none;  
+    border-radius: 17px;  
+    margin: 0px 30% 0px 30%;
+    color: #ffffff;
+    background-color: #6500ff;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+    margin-bottom: 3%
+}
+.cam1:hover {
+ background-color: white;
+ border: 1px solid white;
+ color: #6500ff
+}
+.cam2 {
+    width: 35%;  
+    height: 35px;  
+    border: 1px solid #ffffff;  
+    border-radius: 17px;  
+    margin: 0px 30% 0px 30%;
+    color: #ffffff;
+    background-color: #202020;
+    transition-duration: 0.5s;
+    transition: width 2s, height 4s;
+    cursor: pointer;
+}
+.cam2:hover {
+ background-color: white;
+ color: #202020
+}
+
+
+.name {
+text-align: center;
+font-size: 25px;
+color: #404040;
+font-weight: bold;
+padding-bottom: 3%
+}
+.info {
+border-top: 1px solid #c3c3c3;
+border-bottom: 1px solid #c3c3c3
+}
+.info h2 {
+text-align: center;
+font-size: 30px;
+color: #ffffff;
+border-radius: 20px;
+background-color: #404040;
+margin-left: 30%;
+margin-right: 30%
+}
+.info table {
+width: 95%;
+margin-left: auto;
+margin-right: auto
+}
+.infoin {
+font-weight: bold;
+color: grey;
+font-size: 20px;
+height: 40px;
+}
+.infoout {
+padding-left: 10%;
+}
+
+
+.footer {
+margin-top: -1%;
+background-color: #202020;
+padding-bottom: 10%
+}
+.footer img {
+width: 50%;
+padding-left: 3%
+}
+.footer table {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 3%
+}
+.footx {
+color: #cbcbcb
+}
+.foot {
+font-size: 20px;
+color: white;
+padding-bottom: 1%;
+padding-top: 2%
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+<table>
+<tr>
+<td><a href="whitepage.html"><img src="1626269341292.png" alt="" width="50" height="50"class="logo"></a></td>
+<td class="head"><a href="whitelogin.html">Login</a></td>
+<td class="head"><a href="">Laptops</a></td>
+<td class="head"><a href="streamerpc.html">PCs</a></td>
+<td class="head"><a href="about.html">About Us</a></td>
+<td class="head"><a href="">Customer Care</a></td>
+</tr>
+</table>
+</div>
+</br>
+
+
+							
+<div class="sector1">
+ <h1>The Creator PC</h1>
+ <h4>Power The Imagination</h4>
+ <img src="1616721402-prebuiltcreatorhero.webp" alt="" class="sector1pic">
+</div>
+
+
+<div class="sector2">
+	<h2>BUILT FOR CREATORS</h2>	
+	<h3>The Creator PC equips users with everything needed to showcase creative talents.</h3>		
+</div>
+</br></br></br>
+
+
+<div class="sectorbuy">
+	</br></br>
+	<table>
+		<tr>
+			<td>
+				<img src="1616123904-creatorblack1.webp" alt="">
+				<h2>Creator PC Black</h2>
+				<p>Prebuilt Creator PC</p>
+				<h3>$3,499.00</h3>
+				<input type="button" name="log" class="buy" value="Shop" onclick="window.location.href= 'whitelogin.html'">
+			</td>
+			<td>
+				<img src="1616123776-creatorwhite1-1_1.webp" alt="">
+				<h2>Creator PC White</h2>
+				<p>Prebuilt Creator PC</p>
+				<h3>$3,499.00</h3>
+				<input type="button" name="log" class="buy" value="Shop" onclick="window.location.href= 'whitelogin.html'">
+			</td>
+		</tr>
+	</table>		
+</div>
+
+<div class="sector2">
+	<h2>GALLERY</h2>
+</div>
+<div class="pcpic">
+	<table>
+		<tr>
+			<td><img src="1616123904-creatorblack1_1.webp" alt="" width="250"></td>
+			<td><img src="1616123908-creatorblack2.webp" alt="" width="250"></td>
+			<td><img src="1616123886-creatorblack3.webp" alt="" width="250"></td>
+			<td><img src="1616123895-creatorblack5.webp" alt="" width="250"></td>
+			<td><img src="1616123899-creatorblack6.webp" alt="" width="250"></td>
+			<td><img src="1616123891-creatorblack4.webp" alt="" width="250"></td>
+		</tr>
+	</table>
+</div> </br></br></br></br>
+<div class="pcpic">
+	<table>
+		<tr>
+			<td><img src="1616123776-creatorwhite1-1_2.webp" alt="" width="250"></td>
+			<td><img src="1616123780-creatorwhite2-1.webp" alt="" width="250"></td>
+			<td><img src="1616123770-creatorwhite3.webp" alt="" width="250"></td>
+			<td><img src="1616123788-creatorwhite5.webp" alt="" width="250"></td>
+			<td><img src="1616123764-creatorwhite6.webp" alt="" width="250"></td>
+			<td><img src="1616123785-creatorwhite4.webp" alt="" width="250"></td>
+		</tr>
+	</table>
+</div> </br></br>
+
+
+
+<div class="sector3" >
+	</br>
+	<table>
+		<tr>
+		<td>
+			<img src="1626475097-creator-pc-nvidia-2.webp" alt="" class="sector3pic">
+		</td>
+		<td>
+			<h1>Get to Final Frames Sooner</h1>
+			<p>Experience lag-free interaction and massive rendering speed boosts with RTX-accelerated ray tracing and AI denoising.</p>
+		</td>
+		</tr>
+	</table>
+	</br>
+</div>
+
+
+
+<div class="sector4">
+	<table>
+		<tr>
+		<td>
+			<h1>8K All the Way</h1>
+			<p>Decodes and debayers up to 8K RED video in real-time with REDCINE-X PRO.</p>
+		</td>
+		<td>
+			<img src="1626475143-creator-pc-nvidia-3.webp" alt="" class="sector4pic">
+		</td>
+		</tr>
+	</table>
+</div>		
+
+
+
+<div class="sector5" >
+	</br>
+	<table>
+		<tr>
+		<td>
+			<img src="1617214863-creatornvidiastudiodrivers.webp" alt="" class="sector5pic">
+		</td>
+		<td>
+			<h1>NVIDIA Studio Drivers</h1>
+			<p>Studio Drivers bring maximum performance—and stability—thanks to extensive multi-app creative workflow testing.</p>
+		</td>
+		</tr>
+	</table>
+	</br>
+</div>
+</br></br>
+
+
+<div class="sector6">
+	<table>
+		<tr>
+		<td>
+			<h1>More Storage for the Journey</h1>
+			<p>With speeds up to 250MB/s at 7200 RPM, the External WD_Black P10 Game Drive is available at checkout for fast access to game libraries or work.</p>
+		</td>
+		<td>
+			<img src="1617214854-creatormorestorage.webp" alt="" class="sector6pic">
+		</td>
+		</tr>
+	</table>
+</div>		
+</br></br>
+
+
+<div class="info"></br>
+<h2>Specifications</h2></br>
+<table>
+		<tr>
+				<td class="infoin">CPU</td>
+				<td class="infoout">Intel i9-11900K</td>
+		</tr>
+		<tr>
+				<td class="infoin">GPU</td>
+				<td class="infoout">NVIDIA GeForce RTX 3090</td>
+		</tr>
+		<tr>
+				<td class="infoin">RAM</td>
+				<td class="infoout">Team T-FORCE Delta RGB 64GB (4 x 16GB) 3000MHz</td>
+		</tr>
+		<tr>
+				<td class="infoin">Storage</td>
+				<td class="infoout">WD Black SN750 1TB SSD + Seagate Barracuda 4TB HDD</td>
+ 	</tr>
+		<tr>
+				<td class="infoin">Motherboard</td>
+				<td class="infoout">MSI MEG Z490 ACE</td>
+		</tr>
+		<tr>
+				<td class="infoin">CPU Cooler</td>
+				<td class="infoout">NZXT Kraken X63</td>
+		</tr>
+		<tr>
+				<td class="infoin">Power Supply</td>
+				<td class="infoout">750W Gold</td>
+		</tr>
+		<tr>
+				<td class="infoin">Operating System</td>
+				<td class="infoout">Windows 10 Professional</td>
+		</tr>
+		<tr>
+				<td class="infoin">Manufacturer's Warranty - Parts</td>
+				<td class="infoout">2 Years</td>
+		</tr>
+		<tr>
+				<td class="infoin">Manufacturer's Warranty - Labor</td>
+				<td class="infoout">2 Years</td>
+		</tr>
+	</table></br></br>
+</div></br></br>
+
+
+<div class="cam">
+ <p><b>TWS</b>CAM</p>
+ <p class="par">Manage performance, temperatures, and devices all from a single application.</p>
+ <input type="button" name="log" class="cam1" value="Free Download" onclick="window.location.href= 'whitelogin.html'">
+ <input type="button" name="log" class="cam2" value="Explore" onclick="window.location.href= 'whitelogin.html'">
+ <p class="win">WINDOWS 10 64-BIT</p>
+ <img src="cam_desktop.png" alt="">
+</div></br></br>
+
+
+
+<div class="sector7">
+	<table>
+		<tr>
+		<td>
+			<img src="1626358823123.png" alt="" width="50">
+		</td>
+		<td>
+			<img src="1626358791141.png" alt="" width="50">
+		</td>
+		<td>
+			<img src="1626358752158.png" alt="" width="50">
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<h3>Expertly Built</h3>
+			<p>Hand built by the same teams who build our custom Gaming PCs</p>
+		</td>
+		<td>
+			<h3>2 Year Warranty</h3>
+			<p>Free 2-year warranty on all parts & labor as well as professional wire management</p>
+		</td>
+		<td>
+			<h3>Tested With Care</h3>
+			<p>Each PC is built, beautifully cabled, and tested with care</p>
+		</td>
+		</tr>
+	</table>	
+</div>
+</br></br></br>
+
+
+<div class="footer">
+	<img src="1626460426829.png" alt="">
+	<table>
+		<tr>
+			<td class="foot">Contact</td>
+			<td class="foot">About THE WARPED STORE</td>
+			<td class="foot">Community</td>
+		</tr>
+		<tr>
+			<td class="footx">Company</td>
+			<td class="footx">Founder Q & A</td>
+			<td class="footx">Our Discord</td>
+		</tr>
+		<tr>
+			<td class="footx">Customer Support</td>
+			<td class="footx">Customer Reviews</td>
+			<td class="footx">Newsroom & Blog</td>
+		</tr>
+		<tr>
+			<td class="footx">Submit an Enquiry</td>
+			<td class="footx"></td>
+			<td class="footx">Social Media</td>
+		</tr>
+		<tr>
+			<td class="footx">Support Center</td>
+			<td class="footx"></td>
+			<td class="footx"></td>
+		</tr>
+		<tr>
+			<td class="foot">Laptops</td>
+			<td class="foot">Account</td>
+			<td class="foot">THE WARPED STORE</td>
+		</tr>
+		<tr>
+			<td class="footx">ConceptD</td>
+			<td class="footx">Manage Your Account</td>
+			<td class="footx">Gaming PC</td>
+		</tr>
+		<tr>
+			<td class="footx">Zenbook Duo</td>
+			<td class="footx"><a href="whitelogin.html" style="text-decoration:none; color:#cbcbcb">Sign In/Up</a></td>
+			<td class="footx">Creator's PC</td>
+		</tr>
+		<tr>
+			<td class="footx">GE76 Raider</td>
+			<td class="footx"></td>
+			<td class="footx">Streaming PC</td>
+		</tr>
+		<tr>
+			<td class="footx">Spectre X360</td>
+			<td class="footx"></td>
+			<td class="footx">FAQs</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
